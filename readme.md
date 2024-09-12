@@ -24,13 +24,14 @@ host_music=D:\medialibrary\music
 
 * Run Via Docker Compose
 ```
-docker compose down
-docker compose pull
-docker compose up -d
-docker logs -f plex
+powershell -file "D:\workspace\mediaserver\startup.ps1"
 ```
 
 * Access [Plex](localhost:32400/web)
+
+* Setup Libraries
+
+* Setup Remote Access
 
 ## Shutdown Media Server
 
