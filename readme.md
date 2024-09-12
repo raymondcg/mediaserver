@@ -20,11 +20,12 @@ claim_code= #get your claim code from here - https://www.plex.tv/claim/
 host_tv=D:\medialibrary\tv
 host_movies=D:\medialibrary\movies
 host_music=D:\medialibrary\music
-host_transcode=D:\medialibrary\transcode
 ```
 
 * Run Via Docker Compose
 ```
+docker compose down
+docker compose pull
 docker compose up -d
 docker logs -f plex
 ```
